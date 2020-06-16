@@ -241,11 +241,11 @@ html {
 }
 
 .site-main .project-area .grid .our-project>.title h4 {
-    font: normal 700 25px/12px var(--roboto);
+    font: normal 700 20px/20px var(--roboto);
 }
 
 .site-main .project-area .grid .our-project .img div:hover img {
-    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    filter: brightness(1.2) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 
