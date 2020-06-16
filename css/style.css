@@ -241,7 +241,7 @@ html {
     font: normal 700 25px/12px var(--roboto);
 }
 
-.site-main .project-area .grid .our-project .img a:hover img {
+.site-main .project-area .grid .our-project .img div:hover img {
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
