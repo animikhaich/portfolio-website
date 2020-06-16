@@ -21,6 +21,8 @@ html {
 
 .header_area .main-menu .navbar {
     padding: 1rem 20rem;
+    /* position: fixed; */
+    z-index: 1030;
 }
 
 .header_area .main-menu .nav-item .nav-link {
@@ -128,7 +130,8 @@ html {
 }
 
 .site-main .brand-area .first-row .col-lg-4>.single-brand>img {
-    width: 50%;
+    width: 90%;
+    filter: brightness(0.95);
 }
 
 .site-main .brand-area .first-row .col-lg-4>.single-brand:hover {
@@ -137,7 +140,7 @@ html {
 }
 
 .site-main .brand-area .first-row .col-lg-4>.single-brand:hover>img {
-    filter: brightness(0.15);
+    filter: brightness(1.05);
 }
 
 .site-main .brand-area .experience-area {
@@ -192,7 +195,7 @@ html {
 /* Services Area */
 
 .site-main .services-area {
-    padding: 7rem 2rem;
+    padding: 2rem 2rem;
 }
 
 .site-main .services-area .services-title {
@@ -223,7 +226,7 @@ html {
 /* Project Area */
 
 .site-main .project-area {
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 .site-main .project-area .button-group button {
@@ -344,9 +347,9 @@ footer.footer-area .social h5 {
 }
 
 footer.footer-area .social a>i {
-    font-size: 22px;
+    font-size: 29px;
     padding: 2rem;
-    color: var(--border-color);
+    color: var(--title-color);
 }
 
 footer.footer-area .social a:hover>i {
