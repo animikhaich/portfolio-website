@@ -125,7 +125,7 @@ html {
     margin: .9rem 0;
     width: 180px;
     height: 100px;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: transform .4s ease;
 }
 
