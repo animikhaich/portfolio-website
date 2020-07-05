@@ -192,14 +192,46 @@ html {
 
 /* End Brand Area */
 
-/* Services Area */
 
-.site-main .services-area {
-    padding: 2rem 2rem;
+/* Publications Area */
+
+.site-main .pub-area .pub-title {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
+.site-main .pub-area .pub-title h1 {
+    font-size: 35px;
+}
+
+.site-main .pub-area .pub p {
+    font-size: 20px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.site-main>.pub-area .pub {
+    background: rgba(242, 247, 248, 0.973);
+    text-align: center;
+    transition: box-shadow .5s ease;
+}
+
+.site-main>.pub-area .pub:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.site-main>.pub-area .pub a:hover {
+    text-decoration: none;
+}
+
+/* End Publications Area */
+
+
+/* Services Area */
+
 .site-main .services-area .services-title {
-    padding: 0 14rem;
+    padding-top: 3rem;
+    padding-bottom: 0rem;
 }
 
 .site-main .services-area .services-title h1 {
@@ -207,11 +239,10 @@ html {
 }
 
 .site-main>.services-area .services {
-    background: rgba(248, 252, 253, 0.973);
-    padding: 2rem 0;
+    background: rgba(242, 247, 248, 0.973);
     width: 16rem;
     margin: 5rem .5rem;
-    transition: box-shadow .7s ease;
+    transition: box-shadow .5s ease;
 }
 
 .site-main>.services-area .services:hover {
