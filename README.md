@@ -77,7 +77,7 @@ All components used can be used to build static websites:
 git clone https://github.com/animikhaich/portfolio-website.git
 ```
 
-1. Run on your favorite web-browser
+2. Run on your favorite web-browser
 
 <!-- ROADMAP -->
 
