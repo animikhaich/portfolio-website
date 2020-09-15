@@ -241,12 +241,18 @@ html {
 .site-main>.services-area .services {
     background: rgba(242, 247, 248, 0.973);
     width: 16rem;
+    height: 18rem;
     margin: 5rem .5rem;
     transition: box-shadow .5s ease;
 }
 
 .site-main>.services-area .services:hover {
     box-shadow: var(--box-shadow);
+}
+
+.site-main>.services-area h5 {
+    font-size: 19px;
+    font-weight: 600;
 }
 
 
